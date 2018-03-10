@@ -1,0 +1,9 @@
+language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: PLTR2NsyVk2bjZhHIqC0mXRfKCTrCAUDAmHqtqOm/J+X5jxSXWj4+RTXOA+k4TsGnmiPQdCwJviyVmS08dOFqxa+VR0Aj8XFerSe6lKO34gsjKg4EzBy2ZkyyEFlj8vhtfz7fn+IxQf0jZFe7uEapgVbnkVOrFMy9LlXDMDpno0TUSRDWyUn91jIBJ+V1eSXwwNZ9QWMA/GZ/emBoAEg0Fs15w8XXdMe0NJBHQh1bHfE0uQmA5xszcG3f/1OnS6Y9Q80HYjmip/HSY/HHei8d2QK5pXyc6ZfZyZp/AprEJ0hVOHcc4xWWiFMkkyW//IqQ8ciUrwuzvTovP8sCkpHE+C2CFLuSxAjnnlnt/CgKJTa1p5VdqE+syocpQQtEn9MxP0k/np3FgBAyDxYbUy+4Ea2isOWOx5q0KX2omeDwy53hZyPFksWSx3yNXY74rsKwixCudQ1jS1wfFWUOcBn2uhZhyUyiEra8HvQfeSQ5GHapRhYiQpBwrV91RSzcJgxyvpX++U7PHfWx3vcZZuf1iGeIkHPaiykuPJPXxAG9GaQGtRC5EoPs9t6EXZ7byzHkCF360dsyGxGGX5Js0JauDnjnmtVoeUDClGTLM6rrrV9nQZFcvisD7ue/u+Mo5xeTcQHAcEM2/UF4rIS/z00v2p48o8ONUbh+7jMV0FdGeU=
+  app: demoapp1104
+  on:
+    repo: Sreeragtblr/demo
